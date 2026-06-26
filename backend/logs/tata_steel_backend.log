@@ -1,0 +1,50 @@
+2026-06-23 23:48:57.136 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-23 23:50:05.801 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-23 23:58:27.419 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-23 23:58:29.067 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-23 23:59:18.701 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-24 10:24:48.049 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-24 10:25:46.530 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-24 10:32:56.139 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-24 10:33:09.661 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-24 10:33:10.901 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-24 15:01:31.614 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-24 15:01:46.607 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-24 15:01:48.054 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-24 15:02:14.314 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-24 15:02:25.035 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-24 15:02:25.859 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-24 15:03:40.192 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-24 15:03:51.933 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-24 15:03:52.713 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-25 16:30:33.521 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-25 16:31:01.709 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-25 16:31:03.439 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-25 16:35:36.192 | INFO     | app.api.v1.documents:process_document_pipeline_task:17 - Starting asynchronous background document processing engine for ID: da4fdc34-038b-434d-80f3-0d763d464ad4
+2026-06-25 16:35:36.419 | INFO     | app.api.v1.documents:process_document_pipeline_task:24 - Successfully broken file into 1 structural windows.
+2026-06-25 16:35:37.531 | INFO     | app.api.v1.documents:process_document_pipeline_task:49 - Document ingestion pipeline executed successfully for ID: da4fdc34-038b-434d-80f3-0d763d464ad4
+2026-06-25 16:36:27.992 | INFO     | app.rag.chat_service:execute_rag_pipeline:17 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-25 16:36:27.995 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What PPE is required in Blast Furnace area?'
+2026-06-25 16:36:29.401 | ERROR    | app.rag.chat_service:execute_rag_pipeline:44 - Groq API connection or inference execution failure: Error code: 404 - {'error': {'message': 'The model `qwen-2.5-70b` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-06-25 16:37:29.836 | INFO     | app.rag.chat_service:execute_rag_pipeline:17 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-25 16:37:29.837 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What industries benefit most from this safety program?'
+2026-06-25 16:37:30.310 | ERROR    | app.rag.chat_service:execute_rag_pipeline:44 - Groq API connection or inference execution failure: Error code: 404 - {'error': {'message': 'The model `qwen-2.5-70b` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-06-26 08:45:53.380 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-26 08:46:11.613 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-26 08:46:12.384 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-26 08:49:47.484 | INFO     | app.rag.chat_service:execute_rag_pipeline:17 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 08:49:47.499 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What PPE is required in Blast Furnace area?'
+2026-06-26 08:49:48.709 | ERROR    | app.rag.chat_service:execute_rag_pipeline:44 - Groq API connection or inference execution failure: Error code: 404 - {'error': {'message': 'The model `qwen-2.5-70b` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-06-26 08:55:32.151 | INFO     | app.rag.chat_service:execute_rag_pipeline:17 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 08:55:32.151 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What is the conveyor shutdown procedure?'
+2026-06-26 08:55:32.670 | ERROR    | app.rag.chat_service:execute_rag_pipeline:44 - Groq API connection or inference execution failure: Error code: 404 - {'error': {'message': 'The model `qwen-2.5-70b` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-06-26 09:02:15.514 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-26 09:02:38.136 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-26 09:02:39.062 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
+2026-06-26 09:02:39.452 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-26 09:03:02.400 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 09:03:02.401 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What PPE is required in Blast Furnace area?'
+2026-06-26 09:05:45.412 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 09:05:45.413 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What is the Industrial Safety Certificate Program?'
+2026-06-26 09:11:10.876 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 09:11:10.877 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What is Personal Safety?'
