@@ -48,3 +48,20 @@
 2026-06-26 09:05:45.413 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What is the Industrial Safety Certificate Program?'
 2026-06-26 09:11:10.876 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
 2026-06-26 09:11:10.877 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What is Personal Safety?'
+2026-06-26 14:53:29.195 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-26 14:53:49.244 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-26 14:53:50.062 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
+2026-06-26 14:53:50.475 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-26 14:56:22.398 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-26 14:56:22.399 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'Can you explain the importance of ISO 45001 in industrial safety?'
+2026-06-28 09:14:51.542 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-28 09:15:16.765 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-28 09:15:17.808 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
+2026-06-28 09:15:18.341 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
+2026-06-28 09:20:51.219 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-28 09:20:51.220 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'What practical skills are taught in the gas cutting and welding safety sessions?'
+2026-06-28 16:04:14.575 | INFO     | app.rag.chat_service:execute_rag_pipeline:23 - Executing complete RAG lifecycle loop for session: session-afrygog1f-1782385583201
+2026-06-28 16:04:14.592 | INFO     | app.rag.retrieval_service:retrieve_top_chunks:15 - Initiating vector search sequence for query: 'about safety give me three points'
+2026-06-29 20:19:11.934 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-29 20:19:32.630 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-29 20:19:33.438 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
