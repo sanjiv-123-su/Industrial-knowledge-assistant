@@ -65,3 +65,7 @@
 2026-06-29 20:19:11.934 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
 2026-06-29 20:19:32.630 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
 2026-06-29 20:19:33.438 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
+2026-06-29 20:35:20.457 | INFO     | app.rag.embedding_service:__init__:7 - Initializing BAAI/bge-small-en-v1.5 Local Transformer Model...
+2026-06-29 20:35:36.010 | INFO     | app.rag.embedding_service:__init__:10 - Embedding Service model loaded successfully.
+2026-06-29 20:35:36.806 | INFO     | app.rag.chat_service:__init__:20 - ChatService initialized using validated Groq model target: llama-3.3-70b-versatile
+2026-06-29 20:35:37.438 | INFO     | app.main:<module>:9 - MySQL Database structural schemas successfully synchronized.
